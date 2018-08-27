@@ -11,7 +11,7 @@ var frame = active_artboard.artboardRect;
 var x_offset = frame[0];
 var y_offset = frame[1];
 var board_height = y_offset;
-file.write("name,x,y\n");
+file.write("name,x,y,width,height\n");
 for (var i = 0; i < sel.length; i++) {
 	var obj = sel[i];
 	var center = obj.position;
